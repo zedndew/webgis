@@ -28,6 +28,10 @@
             border-radius: 5px;
             z-index: 1000;
             text-align: center;
+            /* Tambahan untuk susunan logo & teks */
+            display: flex;
+            align-items: center;
+            gap: 15px;
         }
         .map-title h2 {
             margin: 0;
@@ -36,11 +40,17 @@
             font-size: 20px;
             letter-spacing: 1px;
         }
+        /* Style saiz logo */
+        .map-logo {
+            height: 50px; /* Anda boleh laras ketinggian ini */
+            width: auto;
+        }
         </style>
         <title>POLITEKNIK UNGKU OMAR - Peta Lot</title>
     </head>
     <body>
         <div class="map-title">
+            <img src="Logo_POU.png" alt="Logo POU" class="map-logo">
             <h2>POLITEKNIK UNGKU OMAR</h2>
         </div>
 
